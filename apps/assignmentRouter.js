@@ -18,7 +18,7 @@ assignmentRouter.get("/:id", (req, res) => {
 
   if (!hasFound) {
     return res.status(404).json({
-      messsage: `Assignment ${assignmentId} not found`,
+      message: `Assignment ${assignmentId} not found`,
     });
   }
 
